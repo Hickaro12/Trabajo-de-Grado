@@ -1,0 +1,7 @@
+# Git LFS para modelos 3D y texturas pesadas
+public/models/*.glb filter=lfs diff=lfs merge=lfs -text
+public/textures/*.exr filter=lfs diff=lfs merge=lfs -text
+public/textures/*.hdr filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
